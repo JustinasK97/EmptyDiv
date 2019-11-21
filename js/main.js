@@ -11,7 +11,7 @@ const addDivs = document.querySelector('.container');
         return Math.floor(Math.random()*number);
     }
     function generate() {
-        let rndCol = 'rbg(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+        let rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
         return rndCol;
     }
         let divs = document.querySelectorAll('div');
