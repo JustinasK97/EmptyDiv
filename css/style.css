@@ -1,0 +1,9 @@
+.container{
+    width: 100%;
+}
+div{
+    background-color: darkred;
+    height: 100px;
+    width: 25%;
+    float:left;
+}
